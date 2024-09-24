@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Playwrite+BE+VLG&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body{
+    font-family: "Ubuntu", system-ui;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+}
+.container{
+    padding: 20px 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+}
+input{
+    padding: 10px 10px 10px 10px;
+    width: 90%;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+h1{
+    text-align: center;
+}
+button{
+    width: 90%;
+    height: 40px;
+    color: white;
+    background-color: rgb(17, 172, 17);
+    margin-top: 20px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(205, 24, 24);
+    color: #fff;
+}
